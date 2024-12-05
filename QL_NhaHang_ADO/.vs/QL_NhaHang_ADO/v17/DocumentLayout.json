@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\controllers\\datbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:controllers\\datbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\controllers\\ban2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:controllers\\ban2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\views\\datban2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:views\\datban2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\views\\ban2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:views\\ban2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\entity\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:entity\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\views\\share\\editortemplates\\ban2editor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:views\\share\\editortemplates\\ban2editor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\entity\\datban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:entity\\datban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\entity\\ban2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:entity\\ban2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\views\\share\\layuot_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:views\\share\\layuot_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\models\\datban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:models\\datban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|f:\\ql_nhahang_ado\\ql_nhahang_ado\\models\\ban2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E7EA58-0B87-475C-9084-AA21904F97DB}|QL_NhaHang_ADO.csproj|solutionrelative:models\\ban2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatBan.cs",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Entity\\DatBan.cs",
+              "RelativeDocumentMoniker": "Entity\\DatBan.cs",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Entity\\DatBan.cs",
+              "RelativeToolTip": "Entity\\DatBan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:39:25.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatBan.cs",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Models\\DatBan.cs",
+              "RelativeDocumentMoniker": "Models\\DatBan.cs",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Models\\DatBan.cs",
+              "RelativeToolTip": "Models\\DatBan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:29:55.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ban2.cs",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Entity\\Ban2.cs",
+              "RelativeDocumentMoniker": "Entity\\Ban2.cs",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Entity\\Ban2.cs",
+              "RelativeToolTip": "Entity\\Ban2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:29:12.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ban2.cs",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Models\\Ban2.cs",
+              "RelativeDocumentMoniker": "Models\\Ban2.cs",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Models\\Ban2.cs",
+              "RelativeToolTip": "Models\\Ban2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:28:54.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ban2Editor.cshtml",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Views\\Share\\EditorTemplates\\Ban2Editor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Share\\EditorTemplates\\Ban2Editor.cshtml",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Views\\Share\\EditorTemplates\\Ban2Editor.cshtml",
+              "RelativeToolTip": "Views\\Share\\EditorTemplates\\Ban2Editor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T16:26:24.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Views\\Ban2\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ban2\\Index.cshtml",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Views\\Ban2\\Index.cshtml",
+              "RelativeToolTip": "Views\\Ban2\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T15:08:58.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ban2Controller.cs",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Controllers\\Ban2Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Ban2Controller.cs",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Controllers\\Ban2Controller.cs",
+              "RelativeToolTip": "Controllers\\Ban2Controller.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:07:09.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Entity\\Model1.edmx",
+              "RelativeDocumentMoniker": "Entity\\Model1.edmx",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Entity\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Entity\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-04T15:04:47.964Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatBanController.cs",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Controllers\\DatBanController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DatBanController.cs",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Controllers\\DatBanController.cs",
+              "RelativeToolTip": "Controllers\\DatBanController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:23:18.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Views\\DatBan2\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DatBan2\\Index.cshtml",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Views\\DatBan2\\Index.cshtml",
+              "RelativeToolTip": "Views\\DatBan2\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T14:23:03.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "layuot_admin.cshtml",
+              "DocumentMoniker": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Views\\Share\\layuot_admin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Share\\layuot_admin.cshtml",
+              "ToolTip": "F:\\QL_NhaHang_ADO\\QL_NhaHang_ADO\\Views\\Share\\layuot_admin.cshtml",
+              "RelativeToolTip": "Views\\Share\\layuot_admin.cshtml",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAuwGsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T16:40:52.825Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

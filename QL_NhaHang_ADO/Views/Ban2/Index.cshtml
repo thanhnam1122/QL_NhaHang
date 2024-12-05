@@ -1,0 +1,75 @@
+﻿
+@using Kendo.Mvc.UI
+@using QL_NhaHang_ADO.Entity
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Share/layuot_admin.cshtml";
+}
+
+@(Html.Kendo().Grid<Ban2>()
+        .Name("grid")
+        .Columns(columns =>
+        {
+            columns.Bound(c => c.BanID);
+            columns.Bound(c => c.TrangThai);
+            columns.Bound(c => c.Soghe);
+            columns.Bound(c => c.HoatDong).Width(150);
+        })
+        .HtmlAttributes(new { style = "height: 550px;" })
+        .Scrollable()
+        .Groupable()
+        .Sortable()
+        .ToolBar(toolbar =>
+        {
+            toolbar.Create().Text("Tạo Mới");
+            toolbar.Excel();
+            toolbar.Pdf();
+            toolbar.Search();
+            toolbar.Save();
+        })
+        .Editable(editable => editable.Mode(GridEditMode.InCell))
+        .Pageable(pageable => pageable
+            .Refresh(true)
+            .PageSizes(true)
+            .ButtonCount(5))
+        .DataSource(dataSource => dataSource
+            .Ajax()
+            .Batch(true)
+            .PageSize(20)
+            .AutoSync(false)
+            .ServerOperation(false)
+            .Model(model =>
+            {
+                model.Id(p => p.BanID);
+                model.Field(p => p.TrangThai).Editable(true);
+                model.Field(p => p.BanID).Editable(true);
+                model.Field(p => p.Soghe).Editable(true);
+                model.Field(p => p.HoatDong).Editable(true);
+            })
+            .Read(read => read.Action("GetBan", "Ban2"))
+            .Create("Ban2s_Create", "Ban2")
+            .Update("Ban2s_Update", "Ban2")
+            .Destroy("Ban2s_Destroy", "Ban2")
+        )
+)
+<style>
+    .customer-photo {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-size: 32px 35px;
+        background-position: center center;
+        vertical-align: middle;
+        line-height: 32px;
+        box-shadow: inset 0 0 1px #999, inset 0 0 10px rgba(0,0,0,.2);
+        margin-left: 5px;
+    }
+
+    .customer-name {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 32px;
+        padding-left: 3px;
+    }
+</style>

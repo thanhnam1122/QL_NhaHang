@@ -1,0 +1,7 @@
+﻿@using Kendo.Mvc.UI
+@(Html.Kendo().DropDownList()
+        .Name("Ban2") // The name of the component has to be the same as the name of the property.
+        .DataValueField("BanID") // The value of the drop-down is taken from the EmployeeID property.
+        .DataTextField("BanID") // The text of the items is taken from the EmployeeName property.
+        .BindTo((System.Collections.IEnumerable)ViewData["ban2"]) // A list of all employees which is populated in the controller.
+    )

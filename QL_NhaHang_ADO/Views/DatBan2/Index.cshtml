@@ -1,0 +1,150 @@
+﻿
+@using Kendo.Mvc.UI
+@using QL_NhaHang_ADO.Entity
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Share/layuot_admin.cshtml";
+}
+
+@(Html.Kendo().Grid<DatBan>()
+        .Name("grid")
+        .Columns(columns =>
+        {
+            columns.Select().Width(75).HtmlAttributes(new { @class = "checkbox-align" }).HeaderHtmlAttributes(new { @class = "checkbox-align" });
+            columns.Bound(c => c.DatBanID).Title("Mã Đặt Bàn");
+            columns.Bound(c => c.MAKH);
+            columns.Bound(c => c.BanID).EditorTemplateName("Ban2Editor").Sortable(false).Width(180);
+            columns.Bound(c => c.ThoiGianDat).Format("{0: dd/MM/yyyy HH:mm:tt}").EditorTemplateName("datetime-local");
+            columns.Bound(c => c.SoNguoi);
+            columns.Bound(c => c.TrangThai);
+            columns.Command(command => command.Destroy()).Width(120);
+        })
+        .HtmlAttributes(new { style = "height: 550px;" })
+        .Scrollable()
+        .Groupable()
+        .Sortable()
+        .ToolBar(toolbar =>
+        {
+            toolbar.Create().Text("Tạo Mới");
+            toolbar.Excel();
+            toolbar.Pdf();
+            toolbar.Search();
+            toolbar.Save();
+        })
+        .Editable(editable => editable.Mode(GridEditMode.InCell))
+        .Pageable(pageable => pageable
+            .Refresh(true)
+            .PageSizes(true)
+            .ButtonCount(5))
+
+        .DataSource(dataSource => dataSource
+            .Ajax()
+            .Batch(true)
+            .PageSize(20)
+            .AutoSync(false)
+            .ServerOperation(false)
+            .Model(model =>
+            {
+                model.Id(p => p.DatBanID);
+                model.Field(p => p.MAKH).Editable(true);
+                model.Field(p => p.BanID).Editable(true).DefaultValue(
+                ViewData["ban2"] as QL_NhaHang_ADO.Models.Ban2);
+                model.Field(p => p.ThoiGianDat).Editable(true);
+                model.Field(p => p.SoNguoi).Editable(true);
+            })
+            .Read(read => read.Action("GetBan", "DatBan2"))
+            .Create("DatBans_Create", "DatBan2")
+            .Update("DatBans_Update", "DatBan2")
+            .Destroy("DatBans_Destroy", "DatBan2")
+        )
+    )
+<style>
+    .customer-photo {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-size: 32px 35px;
+        background-position: center center;
+        vertical-align: middle;
+        line-height: 32px;
+        box-shadow: inset 0 0 1px #999, inset 0 0 10px rgba(0,0,0,.2);
+        margin-left: 5px;
+    }
+
+    .customer-name {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 32px;
+        padding-left: 3px;
+    }
+
+    .k-pdf-export .k-clone,
+    .k-pdf-export .k-loader-container {
+        display: none;
+    }
+
+    .k-grid {
+        font-family: "DejaVu Sans", "Arial", sans-serif;
+    }
+
+    .k-pdf-export .k-grid-toolbar,
+    .k-pdf-export .k-pager {
+        display: none;
+    }
+
+    .k-grid tr .checkbox-align {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .product-photo {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-size: 32px 35px;
+        background-position: center center;
+        vertical-align: middle;
+        line-height: 32px;
+        box-shadow: inset 0 0 1px #999, inset 0 0 10px rgba(0,0,0,.2);
+        margin-right: 5px;
+    }
+
+    .product-name {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 32px;
+        padding-left: 3px;
+    }
+
+    .k-rating-container .k-rating-item {
+        padding: 4px 0;
+    }
+
+        .k-rating-container .k-rating-item .k-icon {
+            font-size: 16px;
+        }
+
+    .dropdown-country-wrap {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+        .dropdown-country-wrap img {
+            margin-right: 10px;
+        }
+
+    #grid .k-grid-edit-row > td > .k-rating {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .k-grid .k-grid-search {
+        margin-left: auto;
+        margin-right: 0;
+    }
+</style>
+
